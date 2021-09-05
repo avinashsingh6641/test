@@ -11,7 +11,7 @@ const MainPage = () => {
         <div className="line"></div>
         <p className="p1"><b>Watchdawgs</b></p>
         <p className="p2">Because you need your 'dawgs' come home to</p>
-        <p className="p3"><b>watchdawgs is a free webapp made just for you to share
+        <p className="p3"><b>Watchdawgs is a free webapp made just for you to share
             your precious time with your friends and family no matter
             the distance.
             </b>
