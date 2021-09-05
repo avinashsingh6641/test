@@ -1,0 +1,11 @@
+.video{
+    position:absolute;
+    width:99%;
+    height:50rem;
+    
+    background:rgb(249, 249, 250);
+   
+    top:12%;
+    margin-left:0.5rem;
+    border-radius: 0.5rem;
+}

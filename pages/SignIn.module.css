@@ -1,0 +1,56 @@
+.page{
+    position:absolute;
+    width: 99%;
+    height: 100%;
+    margin-left:0.5rem;
+   
+    background-color: rgb(252, 252, 252);
+    padding: 0 10%;
+    
+    border-radius:0.5rem;
+    top:12%;
+
+}
+.page h2{
+    position:absolute;
+    top:10%;
+    left:10%;
+}
+
+.page p{
+    position:absolute;
+    top:14%;
+    left:1%;
+}
+
+.page nav {
+    position:absolute;
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #a04f03;
+    background-color: #f88707;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+    left:10%;
+    top :63%;
+  }
+  
+.page nav:hover,
+.page nav:active {
+ background-color: #e44607;
+ border-color: #da7502;
+ border-width:0.1rem;
+ }
+
+
+
+.image{
+    position:absolute;
+    top:6%;
+    right:1%;
+    
+    
+}
+

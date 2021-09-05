@@ -1,0 +1,105 @@
+.div{
+    width: 99%;
+    height: 50rem;
+    margin-left:0.5rem;
+    background-color: rgb(252, 252, 252);
+    padding: 0 10%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    border-radius:0.5rem;
+    position:absolute;
+    display:grid;
+    place-items: center;
+    top:12%;
+
+}
+.image{
+    position:absolute;
+    width:10rem;
+    height:8rem;
+    top:27%;
+    border-style:solid;
+    
+    border-radius: 1rem;
+    display:grid;
+    place-items:center;
+    border-width:0.5rem;
+}
+
+.circle{
+    content:'';
+    position:absolute;
+    width:4rem;
+    height:4rem;
+    border-radius: 12rem;
+    background-color: rgb(253, 252, 252);
+    display:grid;
+    place-items:center;
+    filter:drop-shadow(-30px -30px 15px rgba(255, 255, 255, 0.3))
+            drop-shadow(5px 5px 5px rgba(0,0,0,0.2))
+            drop-shadow(15px 15px 15px rgba(0,0,0,0.2));
+           
+
+}
+.circle::before{
+    content:'';
+    position:absolute;
+    border-width: 1rem;
+    right: 0.25rem;
+    width:0rem;
+    height:0rem;
+
+    border-style: solid;
+    border-left-color: rgb(250, 127, 4);
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}  
+.line{
+    position:absolute;
+    margin:0rem;
+    padding:0rem;
+    border-style: solid;
+    width:3.7rem;
+    height:0rem;
+    border-width: 0.5rem;
+    top:43%
+   
+
+}
+.p1{
+    position:absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    top:45%
+}
+
+.p2{
+    position:absolute;
+    top:53%;
+}
+.p3{
+    position:absolute;
+    top:60%;;
+}
+.button {
+        position:absolute;
+        font: inherit;
+        cursor: pointer;
+        padding: 1rem 2rem;
+        border: 1px solid #a04f03;
+        background-color: #f88707;
+        color: white;
+        border-radius: 12px;
+        margin-right: 1rem;
+        left:43.5%;
+        top :70%;
+      }
+      
+.button:hover,
+.button:active {
+     background-color: #e44607;
+     border-color: #da7502;
+     border-width:0.2rem;
+     }

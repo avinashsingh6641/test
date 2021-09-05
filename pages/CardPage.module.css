@@ -1,0 +1,16 @@
+.container{
+    position:absolute;
+    width:99%;
+    height:50rem;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items:center;
+    background:rgb(249, 249, 250);
+   
+    top:12%;
+    margin-left:0.5rem;
+    border-radius: 1rem;
+}
