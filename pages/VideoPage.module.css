@@ -9,3 +9,44 @@
     margin-left:0.5rem;
     border-radius: 0.5rem;
 }
+.video p{
+    position:relative;
+    left :-40%;
+}
+.video input{
+    display:none;
+    
+}
+.video label{
+    position:absolute;
+    margin:auto;
+    color:white;
+    background-color: #f88425;
+    left:5.5%;
+    width:170px;
+    height:50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    top:10px;
+    font-family:"Montserrat",sans-serif;
+    
+    
+    
+
+}
+  
+.video label:hover {
+ background-color: #e44607;
+ border-color: #da7502;
+ 
+ }
+
+.player{
+    position:relative;
+    top:7%;
+    left :5%;
+
+}
