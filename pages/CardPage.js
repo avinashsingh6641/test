@@ -8,7 +8,9 @@ const CardPage = () => {
     <div className={classes.container}>
       <nav>
         <NavLink to="/videopage">
-          <Card>Make A Party</Card>
+          <Card><p>Make A Party</p>
+          <i class="material-icons md-48">movie</i>
+          </Card>
         </NavLink>
       </nav>
 

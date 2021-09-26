@@ -14,3 +14,12 @@
     margin-left:0.5rem;
     border-radius: 1rem;
 }
+.container i{
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.material-icons.md-48 { font-size: 48px; }
